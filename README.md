@@ -36,8 +36,22 @@ For people who can read this high level math here is some brief anotation:
 4. $P_l^m$: Associated Legendre polynomial, defining the θ (polar) oscillation pattern and frequency.
 5. $cos(mφ), sin(|m|φ)$: φ-dependent terms, creating azimuthal variation. These functions control the SH's oscillation around the equator, with $|m|$ determining the frequency of these azimuthal oscillations.
 
-For other people who want to see light in the end of this chapter lets first understand concept of basis functions and where they used.
+For other people who want to see light in the end of this chapter lets first understand concept of basis functions and where they used. Remeber back in school when we studied very nice type of functuions - quadratic. This is very nice family of functions. Because they always have minimum or maximum, are continious , so we could try out derivates on them. Consider a target function we want to approximate: 
 
+   $\phi_{t}(x) = 2x² - 3x + 1$
+
+To do this, we'll use a set of basic functions:
+
+   $\phi_0(x) = 1$ (constant function)
+   
+   $\phi_1(x) = x$ (linear function)
+   
+   $\phi_2(x) = x²$ (quadratic function)
+
+We will make a step by step approximation of our target function.
+
+
+ 
 ## 3. Scene Illumination with Environment Maps
    - Sampling the environment map
    - Calculating diffuse lighting
